@@ -1,0 +1,45 @@
+@media (min-width: 320px) and (max-width: 480px) {
+#movieList {
+  flex-direction: column;
+}
+#highlightedMovie {
+  flex-direction: column;
+}}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.small-image {
+  height: 225px;
+  width: 150px;
+}
+#allMovies{
+  width: 75%;
+}
+#movieList {
+  display: flex;
+  flex-wrap: wrap;
+}
+#highlightedMovie {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+#movieInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
